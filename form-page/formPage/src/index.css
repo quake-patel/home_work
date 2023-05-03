@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+:root {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #424141;
+
+}
+
+.container{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24p x;
+  padding-right: 24px;
+  margin-top: 10px;
+}
+.page-title{
+  font-size: 32px;
+  font-weight: 700;
+}
+.form-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.form-field{
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  border-radius: 10px;
+  padding: 5px;
+  gap: 3px;
+}
+.input-area{
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  outline: none;
+  font-size: 14px;
+}
+.btn-wrapper{
+  display: flex;
+  justify-content: end;
+}
+.btn{
+  margin-top: 10px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: #252525;
+}
+.btn:hover{
+  background-color: #a09f9f;
+}
+.option{
+  padding: 10px;
+}
+label{
+  font-size: 18px;
+}
+.list-wrapper{
+  background-color: white;
+  padding: 10px;
+  margin-top: 40px;
+}
+.list-text{
+  color: black;
+}
+.error{
+  color: rgb(248, 129, 129);
+}
+
+img{
+  height: 20vh;
+}
+
+table{
+  width: 100%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+thead{
+  background-color: #252525;
+}
+
+td, th{
+  text-align: center;
+  padding: 20px;
+}
+.no-data{
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

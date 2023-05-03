@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ac42ff;
+}
+.container{ 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 900px;
+  margin-top: 200px;
+}
+.page-title{
+  font-size: 34px;
+  font-weight: 700;
+  color: white;
+}
+.input-wrapper{
+  margin-top: 24px;
+  margin-bottom: 56px;
+  display: grid;
+  grid-template-columns: 1fr 15%;
+  border-radius: 10px;
+  background-color: white;
+  gap: 10px;
+  height: 40px;
+  padding: 10px;
+}
+.btn{
+  border-radius: 10px;
+  border: 0;
+  font-size: 18px;
+  background-color: #ac42ff;
+  color: white;
+  transition: 0.5s;
+}
+.btn:hover{
+  background-color:  #c67dc5;
+}
+
+.input-area{
+  border-radius: 10px;
+  border: 0;
+  padding-left: 10px;
+  font-size: 18px;
+}
+.list-wrapper{
+  background-color: white;
+  padding: 10px;
+  margin: 24px 0px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: rgb(66, 66, 66);
+}
+.list-text{
+  display: grid;
+  grid-template-columns: 1fr 6%;
+  grid-auto-rows: minmax(100px, auto);
+}
+.btn-delete{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: #ac42ff;
+  border: 0;
+  padding: 0px;
+  font-size: 25px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.btn-delete:hover{
+  color: rgb(243, 92, 92);
+}
+
+
+
+
+
+
+
+
+
+

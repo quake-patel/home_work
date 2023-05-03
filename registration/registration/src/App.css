@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.form-reg{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-wrapper{
+  padding: 40px;
+  background-color: rgb(217, 213, 213);
+  border-radius: 10px;
+  display: grid;
+  gap: 25px;
+  outline: 1px solid rgb(98, 98, 98);
+}
+.form-area{
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  gap: 40px;
+}
+.page-title{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 14px;
+}
+label{
+  font-weight: 500;
+}
+input{
+  padding: 5px;
+  border: none;
+  outline: none;
+  outline: 1px solid #626262;
+  border-radius: 5px;
+}
+.btn-wrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+.btn{
+  padding: 12px 16px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #0051ff;
+  color: white;
+  font-size: 14px;
+  transition: 5ms;
+}
+.btn:hover{
+  background-color: white;
+  color: #0051ff;
+}
+.log-sign{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  background-color: #dfdddd;
+  padding: 20px 0px;
+}
+.header-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  color: #1e1e1e;
+  font-weight: 500;
+  font-size: 24px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav li{
+  list-style: none;
+
+}
+.nav li a{
+  color: #1e1e1e;
+  text-decoration: none;
+  font-weight: 500;
+}
+.user-loin-name{
+  background-color: #373737;
+  color: white;
+  padding: 4px 6px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
